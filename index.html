@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" href="Images/Logos/facebook.png">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <span>
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share with the people in your life.</p >
+            </span>
+           
+            
+        </div>
+        <div class="right">
+            <div class="center">
+                <div class="page">
+                    <input type="text" placeholder="Email address or phone number"><br>
+                    <input type="password" placeholder="Password"><br>
+                    <button>Login</button><br>
+                    <a href="#">Forget password?</a>
+                        <hr>
+                        <button id="button2">Create new account</button>
+                </div>
+                    <div class="external">
+                        <p><a href="#">Create a Page</a>for a celebrity, brand or business.</p>
+                        <p><a href="insta.html"><img src="Images/Logos/instagram.png" width="15px">Login with Instagram</a></p>
+                    </div>
+                   
+            </div>  
+        </div>
+    </div>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #button2{
+            font-size: 18px;
+            width: 200px;
+            
+            border: none;
+            background-color: rgb(8, 179, 8);
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            width: 1400px;
+            height: 750px;
+        }
+        .left{
+           
+            width: 50%;
+            height: 100%;
+            
+        }
+        .left span{
+            position: relative;
+            top:20%;
+            left:15%
+        }
+        h1{
+            font-size: 80px;
+            color: rgb(55, 128, 212);
+        }
+        span p{
+            font-size: 20px;
+            margin-top: -50px;
+        }
+        .right{
+            
+            width:600px;
+            height:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .page{
+            box-shadow: 0px 10px 10px grey;
+            width: 80%;
+            height: 350px;
+            margin: 40px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .page a{
+            
+
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .page input{
+            border:1px solid rgb(126, 124, 124);
+            width:300px;
+            border-radius: 10px;
+            height: 30px;
+            margin-top: 10px;
+            padding: 10px;
+            color: grey;
+            opacity: 500;
+        }
+        .center{
+            position: relative;
+            top:-10%;   
+            left:5%;   
+           
+            width: 500px;
+            height:400px;
+        }
+        button{
+            color: white;
+            width: 320px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 20px;
+            background-color: rgb(60, 120, 209);
+            margin-top: 20px;
+            cursor: pointer;
+            margin-top : 20px;
+            margin-bottom: 10px;
+            border: none;
+            font-weight: bold;
+        }
+        .external{
+            text-align: center;
+        }
+        .external a{
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+        }
+        .external a img{
+            margin-left: 5px;
+        }
+        .page input:hover{
+            border:2px solid rgb(42, 115, 211)
+        }
+        .external p a:hover{
+            text-decoration: 1px ;
+        }
+    </style>
+</body>
+</html>
